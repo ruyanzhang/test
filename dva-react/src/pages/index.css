@@ -3,6 +3,7 @@
   font-family: Georgia, sans-serif;
   margin-top: 4em;
   text-align: center;
+  height: 3000px;
 }
 
 .welcome {
@@ -20,4 +21,30 @@
 
 .list code {
   background: #f7f7f7;
+}
+
+.wrap {
+  border: 1px solid #dddddd;
+  margin: 20px;
+  text-align: left;
+  
+}
+.wrap_header {
+  padding: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.wrap_header > span {
+  float: right;
+}
+.wrap_content {
+  position: relative;
+  padding: 16px;
+  transition: height 1s;
+  overflow: hidden;
+  height: 0px;
+}
+* {
+  padding: 0;
+  margin: 0;
 }
